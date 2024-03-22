@@ -100,14 +100,14 @@
         <p>**学号：202118130248	姓名：白秋蓉 	班级： 数据21<br>实验题目：利用主流云平台搭建个人博客或网站<br>实验学时：2	实验日期：2024年3月22日<br>实验目的：熟悉使用主流云平台并搭建个人博客或者网站。<br>具体包括：<br>参考方案：基于主流云平台，设计、实现个人博客或者网站的搭建，撰写实验报告（附带网站链接并可以访问），并在网站上呈现此次实验报告。</p>
 <p>硬件环境： <br>联网的计算机一台</p>
 <p>软件环境：<br>Windows or Linux</p>
-<p>实验步骤与内容：<br>（1）下载node和npm<br>（2）安装hexo<br>打开终端，在终端运行命令：npm install hexo-cli -g    #完成hexo的安装<br>（3）右键打开git bash，在git bash运行命令<br>hexo init blog<br>cd blog         #进入blog文件<br>hexo s    #生成静态文件<br>（4）创建github库。建立一个新的库，库名是：username.github.io。我的就是BaibaiXX.github.io。<br>（5） 创建完成后点击setting里的pages,查看个人网址是否发布。发现没有什么东西，所以先上传了一个html文件，在页面中显示一些内容。然而还是没有，点击github Pages那个蓝色字体，进入链接，在里面递减确认用自己创建的库。发现有自己的网站了。<br>（6）创建密钥并添加到github账号。由于之前创建过了，所以这一步我跳过。<br>（7）部署网页。在blog这个文件夹里面，右键打开终端，运行npm install hexo-deployer-git –save，安装发布需要的插件。<br>（8）在blog文件内先打开_config.yml文件，最下面的deploy部分做如下修改。<br>deploy:<br>    type: git<br>    repository: ssh:&#x2F;&#x2F;<a href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;</a>:BaibaiXX&#x2F;BaibaiXX.github.io.git<br>    brandh: main<br>messge:<br>这个brandh也可以在github的setting中的Pages进行设置，但是我的已经有main了，所以不需要修改，也可以通过仓库上显示的brandh知道应该写什么。<br>（9）blog文件夹内打开git bash运行命令，就可以上传到github中了。<br>hexo s<br>hexo clean<br>hexo g<br>hexo d<br>（10）打开网站就可以看到内容了，我的网站就是 <a target="_blank" rel="noopener" href="https://baibaixx.github.io/">https://baibaixx.github.io/</a></p>
+<p>实验步骤与内容：<br>（1）下载node和npm<br>（2）安装hexo<br>打开终端，在终端运行命令：npm install hexo-cli -g    #完成hexo的安装<br>（3）右键打开git bash，在git bash运行命令<br>hexo init blog<br>cd blog         #进入blog文件<br>hexo s    #生成静态文件<br>（4）创建github库。建立一个新的库，库名是：username.github.io。我的就是BaibaiXX.github.io。<br>（5） 创建完成后点击setting里的pages,查看个人网址是否发布。发现没有什么东西，所以先上传了一个html文件，在页面中显示一些内容。然而还是没有，点击github Pages那个蓝色字体，进入链接，在里面递减确认用自己创建的库。发现有自己的网站了。<br>（6）创建密钥并添加到github账号。由于之前创建过了，所以这一步我跳过。<br>（7）部署网页。在blog这个文件夹里面，右键打开终端，运行npm install hexo-deployer-git –save，安装发布需要的插件。<br>（8）在blog文件内先打开_config.yml文件，最下面的deploy部分做如下修改。<br>deploy:<br>    type: git<br>    repository: ssh:&#x2F;&#x2F;<a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;</a>:BaibaiXX&#x2F;BaibaiXX.github.io.git<br>    brandh: main<br>messge:<br>这个brandh也可以在github的setting中的Pages进行设置，但是我的已经有main了，所以不需要修改，也可以通过仓库上显示的brandh知道应该写什么。<br>（9）blog文件夹内打开git bash运行命令，就可以上传到github中了。<br>hexo s<br>hexo clean<br>hexo g<br>hexo d<br>（10）打开网站就可以看到内容了，我的网站就是 <a target="_blank" rel="noopener" href="https://baibaixx.github.io/">https://baibaixx.github.io/</a></p>
 <p>结论分析与体会：<br>（1）首先知道了如何使用hexo创建个人博客。在下载node和npm时，实际上之前我已经下载过了，并且通过node -v和npm -v也显示了对应的版本，但是在今天使用之后，发现node -v还可以显示，但是npm找不到了，所以重新卸载，安装别的版本。然后配置环境就可以了。</p>
 <p>（2）虽然搭建好了个人博客，但是在网站上呈现实验报告。**</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/03/22/BaibaiXX/" data-id="clu2rbj4l0002fwun7mp7egk7" data-title="BaibaiXX" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/03/22/BaibaiXX/" data-id="clu2rgxoz0000w0un9r5l5a7d" data-title="BaibaiXX" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
